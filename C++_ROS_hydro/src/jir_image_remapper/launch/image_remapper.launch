@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+
+<launch>
+
+	<node name="jir_image_remapper" type="jir_image_remapper" pkg="jir_image_remapper" output="screen" respawn="true">
+		<param name="left_map" value="/PATH/correctionMap.yaml"/>
+
+		<remap from="~in_left" to="camera/left/image"/>
+
+		<remap from="~out_left_rect/image_raw" to="rectified/left/image"/>
+	</node>
+
+
+</launch>
