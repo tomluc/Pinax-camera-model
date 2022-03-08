@@ -4,6 +4,25 @@
 In this version, the PinAx camera model is used to model underwater refraction for underwater SLAM
 This version has been tested with Ubuntu 20.04 running with UTM VM for mac M1.
 
+# Build in ROS
+make catkin folder in home directory:
+```
+mkdir catkin_ws
+cd catkin_ws
+mkdir build && Src
+catkin_make
+```
+
+copy the repo to the catkin folder:
+```
+cd catkin_ws/src
+git clone https://github.com/fickrie67/Pinax-camera-model.git
+```
+
+then build the repo:
+```
+catkin_make
+```
 
 # Pinax-camera-model
 When using this code in scientific work please cite:
