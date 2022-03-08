@@ -1,7 +1,7 @@
 # Pinax calibration for underwater SLAM
 "The Pinax-Model for Accurate and Efficient Refraction Correction of Underwater Cameras in Flat-Pane Housings" code release
 
-In this version, the PinAx camera model is used to model underwater refraction for underwater SLAM
+In this version, the PinAx camera model is used to model underwater refraction for underwater SLAM.
 This version has been tested with Ubuntu 20.04 running with UTM VM for mac M1.
 
 # Build in ROS
@@ -23,6 +23,31 @@ then build the repo:
 ```
 catkin_make
 ```
+
+# Running in ROS 
+run ros master and source the ros setup
+```
+source /opt/home/catkin_ws/build/devel/setup.bash
+roscore
+```
+
+play recorded video
+```
+rosbag play testBag.bag --loop
+```
+
+then calculate correction map for the video.
+this will produce correctionMap.yaml file in src folder
+```
+rosrun defraction_map_finder defraction_map_finder
+```
+
+adjust the video with correction map file
+```
+roslaunch image_remapper image_remapper.launch
+```
+
+use the corrected video for UW-SLAM purposes. the corrected video can be seen in the image/compressed_depth node. 
 
 # Pinax-camera-model
 When using this code in scientific work please cite:
