@@ -1,10 +1,8 @@
-# Pinax-camera-model
+# Pinax calibration for underwater SLAM
 "The Pinax-Model for Accurate and Efficient Refraction Correction of Underwater Cameras in Flat-Pane Housings" code release
 
 In this version, the PinAx camera model is used to model underwater refraction for underwater SLAM
 This version has been tested with Ubuntu 20.04 running with UTM VM for mac M1.
-
-# Software Installation
 
 
 # Pinax-camera-model
