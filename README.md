@@ -27,7 +27,7 @@ catkin_make
 # Running in ROS 
 run ros master and source the ros setup
 ```
-source /opt/home/catkin_ws/build/devel/setup.bash
+source /home/catkin_ws/build/devel/setup.bash
 roscore
 ```
 
@@ -44,7 +44,7 @@ rosrun defraction_map_finder defraction_map_finder
 
 adjust the video with correction map file
 ```
-roslaunch image_remapper image_remapper.launch
+roslaunch jir_image_remapper image_remapper.launch
 ```
 
 use the corrected video for UW-SLAM purposes. the corrected video can be seen in the image/compressed_depth node. 
