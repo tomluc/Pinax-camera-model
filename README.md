@@ -9,7 +9,7 @@ make catkin folder in home directory:
 ```
 mkdir catkin_ws
 cd catkin_ws
-mkdir build && Src
+mkdir build && mkdir src
 catkin_make
 ```
 
