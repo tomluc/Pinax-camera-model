@@ -16,7 +16,7 @@ catkin_make
 copy the repo to the catkin folder:
 ```
 cd catkin_ws/src
-git clone https://github.com/fickrie67/Pinax-camera-model.git
+git clone https://github.com/fickrie67/pinax-camera-model.git
 ```
 
 then build the repo:
