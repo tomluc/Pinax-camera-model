@@ -107,7 +107,7 @@ namespace jir_rectification_remap_lib {
 			return false;
 		}
 		
-		remap(input, output, mapx, mapy, INTER_LINEAR, BORDER_CONSTANT, Scalar::all(0));
+		remap(input, output, mapx, mapy, CV_INTER_LINEAR, BORDER_CONSTANT, Scalar::all(0));
 		
 		return true;
 	}

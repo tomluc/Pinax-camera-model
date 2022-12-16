@@ -17,7 +17,7 @@ and Systems (IROS), 2013.
 #define CAMERA_H
 
 #include <boost/shared_ptr.hpp>
-#include <eigen3/Eigen/Eigen>
+#include <Eigen/Eigen>
 #include <opencv2/core/core.hpp>
 #include <vector>
 

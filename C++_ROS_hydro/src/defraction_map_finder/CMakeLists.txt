@@ -14,7 +14,7 @@ find_package(catkin REQUIRED COMPONENTS
 
 set(CMAKE_BUILD_TYPE Debug)
 
-find_package(Eigen3 REQUIRED)
+find_package(Eigen REQUIRED)
 find_package(OpenCV REQUIRED)
 
 ## System dependencies are found with CMake's conventions

@@ -37,7 +37,7 @@
 #include <jir_refractive_image_geometry/refracted_pinhole_camera_model.hpp>
 #include "defraction_map_finder/MapFinder.hpp"
 #include "defraction_map_finder/CameraFactory.h"
-#include <eigen3/Eigen/Geometry>
+#include <Eigen/Geometry>
 
 using namespace cv;
 using namespace std;

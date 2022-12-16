@@ -21,7 +21,6 @@ and Systems (IROS), 2013.
 #include "defraction_map_finder/CataCamera.h"
 #include "defraction_map_finder/EquidistantCamera.h"
 #include "defraction_map_finder/PinholeCamera.h"
-#include <iostream>
 //#include "camodocal/camera_models/EquidistantCamera.h"
 //#include "camodocal/camera_models/PinholeCamera.h"
 

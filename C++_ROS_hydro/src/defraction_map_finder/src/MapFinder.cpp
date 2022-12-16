@@ -171,7 +171,7 @@ using namespace camodocal;
 		
 		Mat mask_out;
 		
-		remap( mask, mask_out, mapx, mapy, INTER_LINEAR, BORDER_CONSTANT, Scalar::all(0) );
+		remap( mask, mask_out, mapx, mapy, CV_INTER_LINEAR, BORDER_CONSTANT, Scalar::all(0) );
 		
 		Mat mask_thresh;
 		threshold(mask_out, mask_thresh, 250, 255, THRESH_BINARY);
