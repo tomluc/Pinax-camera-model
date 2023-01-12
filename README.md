@@ -43,7 +43,7 @@ catkin_make
 # Running in ROS 
 run ros master and source the ros setup
 ```
-source catkin_ws/devel/setup.bash
+source ~/catkin_ws/devel/setup.bash
 roscore
 ```
 
