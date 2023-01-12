@@ -63,6 +63,14 @@ adjust the video with correction map file
 roslaunch jir_image_remapper image_remapper.launch
 ```
 
+View the adjusted image
+```
+rosrun image_view image_view image:=<topics>
+
+rosrun image_view image_view image:=/rectified/left/image
+```
+
+
 use the corrected video for UW-SLAM purposes. the corrected video can be seen in the image/compressed_depth node. 
 
 # Pinax-camera-model
