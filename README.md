@@ -43,7 +43,7 @@ catkin_make
 # Running in ROS 
 run ros master and source the ros setup
 ```
-source catkin_ws/devel/setup.bash
+source ~/catkin_ws/devel/setup.bash
 roscore
 ```
 
@@ -55,6 +55,8 @@ rosbag play testBag.bag --loop
 then calculate correction map for the video.
 this will produce correctionMap.yaml file in src folder
 ```
+cd ~/catkin_ws/src/pinax-camera-model/ROS
+
 rosrun defraction_map_finder defraction_map_finder
 ```
 
@@ -62,6 +64,18 @@ adjust the video with correction map file
 ```
 roslaunch jir_image_remapper image_remapper.launch
 ```
+
+View the adjusted image
+```
+rosrun image_view image_view image:=<topics>
+
+rosrun image_view image_view image:=/rectified/left/image
+
+or
+
+rqt_image_view
+```
+
 
 use the corrected video for UW-SLAM purposes. the corrected video can be seen in the image/compressed_depth node. 
 
