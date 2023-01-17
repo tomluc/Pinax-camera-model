@@ -55,6 +55,8 @@ rosbag play testBag.bag --loop
 then calculate correction map for the video.
 this will produce correctionMap.yaml file in src folder
 ```
+cd ~/catkin_ws/src/pinax-camera-model/C++_ROS
+
 rosrun defraction_map_finder defraction_map_finder
 ```
 
@@ -68,6 +70,10 @@ View the adjusted image
 rosrun image_view image_view image:=<topics>
 
 rosrun image_view image_view image:=/rectified/left/image
+
+or
+
+rqt_image_view
 ```
 
 
