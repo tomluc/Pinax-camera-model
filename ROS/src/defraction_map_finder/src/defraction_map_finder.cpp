@@ -55,7 +55,7 @@ int main(int argc, char** argv)
     string mapsResults;
 	mapsResults="correctionMap.yaml";
 	
-	//**** virtual camra params ****
+	//**** virtual camera params ****
 	int W=1024;
 	int H=768;
 	float f=600;
