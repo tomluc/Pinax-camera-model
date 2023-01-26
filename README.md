@@ -82,7 +82,7 @@ record video
 rosrun image_view video_recorder _fps:=25 _filename:="/home/fickrie/test1.MP4" image:=/rectified/image
 ```
 
-use the corrected video for UW-SLAM purposes. the corrected video can be seen in the image/compressed_depth node. 
+use the corrected video for UW-SLAM purposes. the corrected video can be seen in the /rectified/image topics. 
 
 # Pinax-camera-model
 When using this code in scientific work please cite:
