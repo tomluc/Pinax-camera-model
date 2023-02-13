@@ -26,18 +26,18 @@ make catkin folder in home directory:
 mkdir catkin_ws
 cd catkin_ws
 mkdir build && mkdir src
-catkin_make
+catkin build
 ```
 
 copy the repo to the catkin folder:
 ```
-cd catkin_ws/src
+cd ~/catkin_ws/src
 git clone https://github.com/fickrie67/pinax-camera-model.git
 ```
 
 then build the repo:
 ```
-catkin_make
+catkin build
 ```
 
 # Running in ROS 
