@@ -19,6 +19,10 @@ curl -s https://raw.githubusercontent.com/ros/rosdistro/master/ros.asc | sudo ap
 sudo apt update
 
 sudo apt install ros-noetic-desktop-full
+
+sudo apt install python3-catkin-tools python3-osrf-pycommon
+
+source /opt/ros/noetic/setup.bash
 ```
 
 make catkin folder in home directory:
