@@ -89,6 +89,8 @@ ROS calibration:
 ```
 source /opt/ros/noetic/setup.bash
 rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.024 image:=/camera/image_raw
+
+rosrun camera_calibration cameracalibrator.py --size 8x6 --square 0.024 image:=/rectified/left/image
 ```
 use the corrected video for UW-SLAM purposes. the corrected video can be seen in the /rectified/image topics. 
 
