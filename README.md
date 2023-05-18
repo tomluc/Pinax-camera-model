@@ -2,7 +2,7 @@
 "The Pinax-Model for Accurate and Efficient Refraction Correction of Underwater Cameras in Flat-Pane Housings" code release
 
 In this version, the PinAx camera model is used to model underwater refraction for underwater SLAM using [ORB_SLAM](https://github.com/fickrie67/ORB_SLAM3.git).
-This version has been tested with Ubuntu 20.04 running with UTM VM for mac M1.
+This version has been tested with Ubuntu 20.04 with OpenCV 4 and Eigen 3 running with UTM VM for mac M1.
 
 
 # Build in ROS
